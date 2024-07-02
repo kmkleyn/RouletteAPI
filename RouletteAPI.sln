@@ -5,10 +5,7 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouletteAPI", "RouletteAPI\RouletteAPI.csproj", "{07A654D1-8759-4D62-B62B-64E238384F6C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{23BE0D50-3CCA-4990-A592-E3B6E206B8BD}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\Step1StoredProcedure.sql = ..\..\Step1StoredProcedure.sql
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoredProcedure", "StoredProcedure\StoredProcedure.csproj", "{1C7CBD35-FDF7-4EBA-9391-73F777A23ABE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +17,10 @@ Global
 		{07A654D1-8759-4D62-B62B-64E238384F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07A654D1-8759-4D62-B62B-64E238384F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07A654D1-8759-4D62-B62B-64E238384F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7CBD35-FDF7-4EBA-9391-73F777A23ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7CBD35-FDF7-4EBA-9391-73F777A23ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7CBD35-FDF7-4EBA-9391-73F777A23ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7CBD35-FDF7-4EBA-9391-73F777A23ABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
