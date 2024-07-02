@@ -6,7 +6,7 @@ namespace RouletteAPI.Models
     {
         [Key]
         public int Id { get; set; }
-        public List<int>? NumbersInBet { get; set; }
+        public int[]? NumbersInBet { get; set; }
         public int BetRate { get; set; }
     }
 }

@@ -16,5 +16,7 @@ namespace RouletteAPI.Data
 
         public DbSet<Bet> Bet { get; set; } = default!;
         public DbSet<BetType> BetType { get; set; } = default!;
+        public DbSet<Round> Round { get; set; } = default!;
+        public DbSet<User> User { get; set;} = default!;
     }
 }
